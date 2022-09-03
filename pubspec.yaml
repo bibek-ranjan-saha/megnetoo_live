@@ -1,0 +1,49 @@
+name: megnetoo_live
+description: A new Flutter project to detect emf live using magnetometer sensor
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.3
+  vector_math: ^2.1.1
+  motion_sensors: ^0.1.0
+  animated_flip_counter: ^0.2.4
+  syncfusion_flutter_charts: ^20.1.58+1
+  syncfusion_flutter_gauges: ^20.1.58
+  day_night_switcher: ^0.2.0+1
+  animated_theme_switcher: ^2.0.6
+  gauge_indicator: ^0.1.0
+  spring_button: ^2.0.0
+  shared_preferences: ^2.0.15
+  vitality: ^1.0.1
+  rename: ^2.0.1
+  blobs: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  flutter_native_splash: ^2.1.6
+  icons_launcher: ^1.1.8
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  image_path: 'assets/logo.png'
+  android: true
+
+
+flutter_native_splash:
+  color: "#7ca9f2"
+  color_dark: "#1f2a3b"
+  image: assets/logo.png
+  android: true
