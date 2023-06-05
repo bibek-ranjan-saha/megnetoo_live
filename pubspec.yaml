@@ -2,7 +2,7 @@ name: megnetoo_live
 description: A new Flutter project to detect emf live using magnetometer sensor
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-version: 1.0.0+1
+version: 1.0.0+3
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
@@ -15,27 +15,31 @@ dependencies:
   vector_math: ^2.1.1
   motion_sensors: ^0.1.0
   animated_flip_counter: ^0.2.4
-  syncfusion_flutter_charts: ^20.1.58+1
-  syncfusion_flutter_gauges: ^20.1.58
+  syncfusion_flutter_charts: ^21.2.8
+  syncfusion_flutter_gauges: ^21.2.8
   day_night_switcher: ^0.2.0+1
   animated_theme_switcher: ^2.0.6
-  gauge_indicator: ^0.1.0
-  spring_button: ^2.0.0
+  gauge_indicator: ^0.3.3
   shared_preferences: ^2.0.15
-  vitality: ^1.0.1
-  rename: ^2.0.1
-  blobs: ^2.0.0
+  http: ^1.0.0
+  url_launcher: ^6.1.7
+  swipe_deck: ^1.1.0
+  smooth_page_indicator: ^1.0.0+2
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.1
   flutter_native_splash: ^2.1.6
-  icons_launcher: ^1.1.8
+  icons_launcher: ^2.1.0
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/bibek.jpg
 
 flutter_icons:
   image_path: 'assets/logo.png'

@@ -5,15 +5,17 @@ import 'package:flutter/services.dart';
 import '../utils/helpers.dart';
 
 class AppProvider extends ChangeNotifier {
+  bool _isDarkModeEnabled = false;
 
-  bool isDarkModeEnabled = false;
+  bool get isDarkMode => _isDarkModeEnabled;
 
-  changeTheme(BuildContext context) {
+  void changeTheme(BuildContext context) {
     HapticFeedback.selectionClick();
-    isDarkModeEnabled = !isDarkModeEnabled;
+    _isDarkModeEnabled = !_isDarkModeEnabled;
     ThemeSwitcher.of(context).changeTheme(
-        theme: isDarkModeEnabled ? darkTheme : lightTheme,
-        isReversed: isDarkModeEnabled);
+      theme: _isDarkModeEnabled ? darkTheme : lightTheme,
+      isReversed: _isDarkModeEnabled,
+    );
     notifyListeners();
   }
 }

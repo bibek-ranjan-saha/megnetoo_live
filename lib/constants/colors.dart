@@ -1,3 +1,42 @@
 import 'package:flutter/material.dart';
 
 Color accent = Colors.indigo;
+
+List<List<Color>> gradients = const [
+  [Color(0xffffafbd), Color(0xffffc3a0)],
+  [Color(0xff2193b0), Color(0xff6dd5ed)],
+  [Color(0xffcc2b5e), Color(0xff753a88)],
+  [Color(0xffee9ca7), Color(0xffffdde1)],
+  [Color(0xff42275a), Color(0xff734b6d)],
+  [Color(0xffbdc3c7), Color(0xff2c3e50)],
+  [Color(0xffde6262), Color(0xffffb88c)],
+  [Color(0xff06beb6), Color(0xff48b1bf)],
+  [Color(0xffeb3349), Color(0xfff45c43)],
+  [Color(0xffdd5e89), Color(0xfff7bb97)],
+  [Color(0xff56ab2f), Color(0xffa8e063)],
+  [Color(0xff614385), Color(0xff516395)],
+  [Color(0xffeecda3), Color(0xffef629f)],
+  [Color(0xffeacda3), Color(0xffd6ae7b)],
+  [Color(0xff02aab0), Color(0xff00cdac)],
+  [Color(0xffd66d75), Color(0xffe29587)],
+  [Color(0xff000428), Color(0xff004e92)],
+  [Color(0xffddd6f3), Color(0xfffaaca8)],
+  [Color(0xff7b4397), Color(0xffdc2430)],
+  [Color(0xff43cea2), Color(0xff185a9d)],
+  [Color(0xffba5370), Color(0xfff4e2d8)],
+  [Color(0xffff512f), Color(0xffdd2476)],
+  [Color(0xff4568dc), Color(0xffb06ab3)],
+  [Color(0xffec6f66), Color(0xfff3a183)],
+  [Color(0xffffd89b), Color(0xff19547b)],
+  [Color(0xff3a1c71), Color(0xffd76d77), Color(0xffffaf7b)],
+  [Color(0xff4ca1af), Color(0xffc4e0e5)],
+  [Color(0xffff5f6d), Color(0xffffc371)],
+  [Color(0xff36d1dc), Color(0xff5b86e5)],
+  [Color(0xffc33764), Color(0xff1d2671)],
+  [Color(0xff141e30), Color(0xff243b55)],
+  [Color(0xffff7e5f), Color(0xfffeb47b)],
+  [Color(0xffed4264), Color(0xffffedbc)],
+  [Color(0xff2b5876), Color(0xff4e4376)],
+  [Color(0xffff9966), Color(0xffff5e62)],
+  [Color(0xffaa076b), Color(0xff61045f)]
+];

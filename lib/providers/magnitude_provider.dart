@@ -2,7 +2,6 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:megnetoo_live/models/live_data.dart';
 import 'package:motion_sensors/motion_sensors.dart';
-import 'package:provider/provider.dart';
 import 'package:vector_math/vector_math_64.dart';
 
 class MagnitudeProvider extends ChangeNotifier {
